@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/baseClick.css">
+  <title>Click Your Friends</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <header class="col-md-12" >
+        <h3 class="text-center">Click Your friends</h3>
+        <h4 class="text-center">How many can you click in 20 seconds?</h4>
+      </header>
+    </div>
+    <div class="row"><!--beginning of first row-->
+      <div class="col-md-12">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <img src="/buller.jpg" class="img-thumbnail" alt="missing image" 
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/christian.jpg" class="img-thumbnail" alt="missing image" 
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/carolyn.jpg" class="img-thumbnail" alt="missing image" 
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/alyson.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/christopher.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-1"></div>
+      </div> 
+    </div>
+    <div class="row"><!--beginning of second row-->
+      <div class="col-md-12">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <img src="/conaty.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/Darryl.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/david.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/dong.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/ivan.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-1"></div>
+      </div> 
+    </div>
+    <div class="row"><!--beginning of third row-->
+      <div class="col-md-12">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <img src="/jamesion.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/jeramey.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/jill.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/paul.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/richard.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-1"></div>
+      </div> 
+    </div>
+    <div class="row"><!--beginning of fourth row-->
+      <div class="col-md-12">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <img src="/rolondo.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/sheryans.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/valdrin.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/tammer.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-2">
+          <img src="/victor.jpg" class="img-thumbnail" alt="missing image"
+            data-state="notclicked">
+        </div>
+        <div class="col-md-1"></div>
+      </div> 
+    </div>  
+    <div class="col-md-12">
+      <br>
+    </div>
+    <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-10 col-md-offset-1">
+              <button type="button" class="btn btn-primary  btn-block" id="startStopBtn" 
+              data-state="start">Start</button> 
+            </div> 
+          </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-10">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/formContactMe">Contact me</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Model shown when the page loads -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modalStart">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Let's Go!!</h4>
+        </div>
+        <div class="modal-body">
+          <img alt="an image appears here" src="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAYCAAAAJDI3MTYxMmI5LWQ3OGUtNDk4Zi04YjMwLWI1NmNjZGFjMTFhMw.jpg">
+          <p>You have 20 seconds to play after pressing start!.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog --> 
+  </div><!-- /.modal --> 
+<!-- Modal to signal that a button has already been clicked -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="clickedModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Oh No!</h4>
+        </div>
+        <div class="modal-body">
+          <p>You've clicked this one already!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+<!-- Model to signal that the user stoped the game -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="stopGameModel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">You Stopped!</h4>
+        </div>
+        <div class="modal-body">
+          <p>You clicked</p>
+          <label id="buttonsClickedStop"></label>
+          <p>buttons</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+<!-- Model to signal the end of the game because 20 seconds is up -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="endGameModel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Well Done!</h4>
+        </div>
+        <div class="modal-body">
+          <p>20 Seconds is up, you clicked</p>
+          <label id="buttonsClicked"></label>
+          <p>buttons</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+
+
+<!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<!-- Local JavaScript -->
+  <script type="text/javascript" src="/countImages.js"></script>
+  <script type="text/javascript" src="/timer.js"></script>
+</body>
+</html>
